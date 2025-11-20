@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sako/pages/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -7,11 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('Hello Flutter')),
-        body: Center(child: Text('Welcome to Flutter!')),
-      ),
-    );
+    return MaterialApp(home: HomePage());
   }
 }
